@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Front End Personal Project</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  
+<!--   //Moved jquery above bootstrap's jquery. -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css"> 
+
+  <link rel="stylesheet" href="chessboardjs-0.3.0/css/chessboard-0.3.0.min.css">
+</head>
+<body>
+
+  <h1><em>Welcome to the Daily Chess Puzzle! (and more)</em></h1>
+ <div Id="container">
+    
+
+     <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">
+              <img alt="The Puzzler" src="index.html">
+            </a>
+            <a class="links" href="howtoplay.html">
+              How to play
+            </a>
+            <a class="links" href="puzzles.html">
+              Puzzles
+            </a>
+            <a class="links" href="famousgame.html">
+              Famous Game!
+            </a>
+            <a class="links" href="questions.html">
+              Questions!
+            </a>
+          </div>
+        </div>
+      </nav> 
+
+      
+      <iframe height='272' width='242' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='http://pgn4web.casaschi.net/puzzler.php?pgnData=tactics.pgn&amp;gameNum=&amp;squareSize=30&amp;lightColorHex=EFF4EC&amp;darkColorHex=C6CEC3&amp;controlBackgroundColorHex=EFF4EC&amp;controlTextColorHex=888888&amp;frameBorderColorHex=A4A4A4'>
+      iframe support required to display the chess puzzler
+      </iframe>
+
+      <p class="puzzlerules">The daily puzzle should show up on the left.  The puzzle will not tell you whether or not it is a check mate or just a win in material.  The square in the bottom left of the puzzle will be black or white.  This indicates who's move it is.  Once you think you have solved one of the moves then you press the ">" arrow key. If you ever need to go back a move to rethink the position, then click the left "<" arrow.  It will stop letting you make moves once the puzzle is solved.  Hint: Most moves are some sort of forced checkmate in 1,2,3 moves. Good Luck!</p>
+
+      
+
+
+
+  
+  <script src="pgn4web.js" type="text/javascript"></script>
+
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
