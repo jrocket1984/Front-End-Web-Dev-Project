@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#question").on("click", function(){
+  $("button").on("click", function(){
       $(this).popover('toggle');
   });
 

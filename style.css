@@ -2,7 +2,14 @@
   background-position: center center;
   background-size: cover;
 }
-
+#backdrop {
+    background: url(stock-photo-wooden-chess-set-isolated-this-has-clipping-path-299502581.jpg);
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+}
+#email {
+  margin-left: 400px;
+}
 
 .links {
   font-size: 24px; 
