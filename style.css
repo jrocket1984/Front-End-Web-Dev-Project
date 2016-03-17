@@ -1,6 +1,11 @@
+#header-carousel {
+  background-position: center center;
+  background-size: cover;
+}
+
+
 .links {
   font-size: 24px; 
-  margin: auto 0;
   padding-left: 40px;
   padding-top: 20px;
   height: 300px;
@@ -8,27 +13,77 @@
 }
 
 #header-carousel {
-   height: 240px;
-}#question {
-  height: 240px;
-  background-image: url(/Users/JohnMorcos/Desktop/Front-End/Imgs/king_move.png);
+  /* height: 300px !important;*/
+   width: 1200px !important;
+}#cazza1 {
+  background-image: url(Imgs/king-move.png);
   background-position: center center;
   background-size: cover;
 }#cazza2 {
-  height: 240px;
-  background-image: url(/Users/JohnMorcos/Desktop/Front-End/Imgs/queen_move.png);
+  background-image: url(Imgs/queen-move.png);
   background-position: center center;
   background-size: cover;
 }#cazza3 {
-  height: 240px;
-  background-image: url(/images/header3.jpg);
+  background-image: url(Imgs/pawn-move.png);
+  background-position: center center;
+  background-size: cover;
+}#cazza4 {
+  background-image: url(Imgs/bishop-move.png);
+  background-position: center center;
+  background-size: cover;
+}#cazza5 {
+  background-image: url(Imgs/knight-move.png);
+  background-position: center center;
+  background-size: cover;
+}#cazza6 {
+  background-image: url(Imgs/rook-move.png);
   background-position: center center;
   background-size: cover;
 }
 
+
 .puzzlerules {
-  float: right;
-  display: block;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-top: 20px;
   font-style: cursive;
 
 }
+
+#intro {
+  width: 100%;
+  height: 100px;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+
+#puzzler {
+  margin-left: 400px;
+  margin-top: 10px;
+
+}
+
+.item {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+}
+.brand {
+  height: 50px;
+  width: 75px;
+  margin-top: -15px;
+}
+
+/*#headerpage {
+    background: url(https://www.caravanparkphotos.com.au/yamba_waters/images/7_yw___chess_set.jpg);
+    background-size: 800px 600px;
+    background-repeat: no-repeat;
+}*/

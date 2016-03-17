@@ -1,0 +1,24 @@
+Searching 509 files for "queen_"
+
+/Users/JohnMorcos/Desktop/Front-End/style.css:
+   18  }#cazza2 {
+   19    height: 240px;
+   20:   background-image: url(Imgs/queen-move.png);
+   21    background-position: center center;
+   22    background-size: cover;
+
+/Users/JohnMorcos/Desktop/Front-End/Imgs/Front End Personal Project.html:
+   79      </div>
+   80      <div class="item">
+   81:       <img src="file:///Users/JohnMorcos/Desktop/Front-End/Imgs/queen-move.png" alt="Queen">
+   82        <div class="carousel-caption">
+   83          Queen
+
+/Users/JohnMorcos/Desktop/Front-End/Imgs/Front End Personal Project_files/style.css:
+   18  }#cazza2 {
+   19    height: 240px;
+   20:   background-image: url(/Users/JohnMorcos/Desktop/Front-End/Imgs/queen-move.png);
+   21    background-position: center center;
+   22    background-size: cover;
+
+3 matches across 3 files

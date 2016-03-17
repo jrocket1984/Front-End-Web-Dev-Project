@@ -3,6 +3,7 @@ $(document).ready(function() {
       $(this).popover('toggle');
   });
 
+$('.carousel').carousel('cycle');
 
 
 
