@@ -3,7 +3,9 @@ $(document).ready(function() {
       $(this).popover('toggle');
   });
 
-$('.carousel').carousel('cycle');
+// $('.carousel').carousel('cycle');
+
+$('.carousel').carousel({interval: 5000});
 
 
 

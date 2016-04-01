@@ -2,6 +2,13 @@
   background-position: center center;
   background-size: cover;
 }
+
+iframe {
+  margin-left: 300px;
+}
+
+
+
 #backdrop {
     background: url(stock-photo-wooden-chess-set-isolated-this-has-clipping-path-299502581.jpg);
     background-size: 500px 500px;
@@ -89,8 +96,13 @@
   margin-top: -15px;
 }
 
+img {
+  height: 400px; 
+  width: 600px;
+  margin-left: 300px;
+}
+
 /*#headerpage {
     background: url(https://www.caravanparkphotos.com.au/yamba_waters/images/7_yw___chess_set.jpg);
     background-size: 800px 600px;
-    background-repeat: no-repeat;
-}*/
+  }*/
